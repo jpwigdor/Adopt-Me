@@ -1,5 +1,6 @@
 import React from "react";
 
+//reusable component based on props
 export default function Pet({ name, animal, breed }) {
   return (
     <div>

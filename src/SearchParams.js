@@ -7,6 +7,7 @@ const SearchParams = () => {
   // location = default location
   // setLocation = new typed location
   // all hooks begin with "use"
+  // old version would have used setState much more often
 
   const [animal, setAnimal] = useState("dog");
   const [breed, setBreed] = useState("");
