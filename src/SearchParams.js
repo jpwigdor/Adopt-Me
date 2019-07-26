@@ -27,6 +27,7 @@ const SearchParams = () => {
             }}
           />
         </label>
+
         <label htmlFor="animal">
           animal
           <select
@@ -47,6 +48,7 @@ const SearchParams = () => {
             })} */}
           </select>
         </label>
+
         <label htmlFor="breed">
           breed
           <select
@@ -64,6 +66,7 @@ const SearchParams = () => {
             ))}
           </select>
         </label>
+
         <button>Submit</button>
       </form>
     </div>
