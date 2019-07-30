@@ -10,9 +10,8 @@ const SearchParams = () => {
   // old version would have used setState much more often
 
   const [animal, setAnimal] = useState("dog");
-  const [breed, setBreed] = useState("");
-  const [breeds, setBreeds] = useState([]);
-
+  const [breeds, setBreeds] = useState("");
+  const [animal, AnimalDropdown] = useDropdown("Animal", "dog", ANIMALS);
   return (
     <div className="search-params">
       <form>
